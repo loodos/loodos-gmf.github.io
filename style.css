@@ -1,0 +1,30 @@
+html * {
+font-family: graphie, sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: larger;
+color: #FFFFFF;
+}
+
+h1 {
+font-weight: bolder;
+font-size: 80pt;
+padding-top: 20;
+padding-bottom: 20;
+}
+
+h2 {
+font-weight: bold;
+}
+
+p {
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+.flex { 
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
