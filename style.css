@@ -1,20 +1,31 @@
+@font-face {
+    font-family: "Muli";
+    src: url('fonts/muli/Muli-Black.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Muli";
+    src: url('fonts/muli/Muli-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html * {
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-size: larger;
+font-family: "Muli", sans-serif;
+font-size: 12pt;
 color: #FFFFFF;
 }
 
 h1 {
 font-weight: 700;
-font-size: 80pt;
-padding-top: 20;
-padding-bottom: 20;
+font-size: 42pt;
+padding-top: 30pt;
+padding-bottom: 30pt;
 }
 
-p {
-    margin-block-start: auto;
-    margin-block-end: auto;
+a {
+    text-align: center;
 }
 
 .flex { 
