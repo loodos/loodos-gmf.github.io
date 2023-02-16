@@ -18,6 +18,10 @@ padding-top: 30pt;
 padding-bottom: 30pt;
 }
 
+a {
+    text-align: center;
+}
+
 .flex { 
     display: flex;
     justify-items: center;
