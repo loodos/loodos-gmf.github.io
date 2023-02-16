@@ -1,12 +1,18 @@
 @font-face {
-    font-family: "MuliBlack";
+    font-family: "Muli";
     src: url('fonts/muli/Muli-Black.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Muli";
+    src: url('fonts/muli/Muli-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 html * {
-font-family: "MuliBlack", sans-serif;
+font-family: "Muli", sans-serif;
 font-size: 12pt;
 color: #FFFFFF;
 }
